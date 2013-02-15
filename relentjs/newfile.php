@@ -1,8 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
 <html>
-<head>
-<title>relentjs</title>
-</head>
+	<head>
+		<title>relentjs</title>
+	</head>
 <body>
 <?php
 	$mysqli = new mysqli();
@@ -48,10 +48,7 @@
 		{ return $myval*self::LOCAL_PRODUCT; }
 	}
 	
-	class myClass extends myBasicClass
-	{
-		
-	}
+	class myClass extends myBasicClass {}
 
 	if(isset($_REQUEST['submit']))
 	{
